@@ -1,0 +1,24 @@
+package com.vincent;
+
+import java.util.Scanner;
+
+public class Multiply {
+    public static void main(String[] args) {
+
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter the first no.");
+        int a = in.nextInt();
+        System.out.println("Enter the second no.");
+        int b = in.nextInt();
+
+        int ans = multiply(a,b);
+        System.out.println(a + " x " + b +" = "+ ans);
+
+    }
+
+    static int multiply(int a,int b) {
+
+        int multiply = a * b;
+        return multiply;
+    }
+}
